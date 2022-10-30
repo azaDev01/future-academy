@@ -262,7 +262,7 @@ body {
   color: #4F4F4F;
   padding-top: 2px;
 }
-#tabs .tabs--blocks__inputs {
+#tabs .tabs--blocks input {
   display: none;
 }
 #tabs .tabs--blocks__group--btn {
