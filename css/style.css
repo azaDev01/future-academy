@@ -17,21 +17,62 @@ body {
   font-style: normal;
 }
 
+@media (max-width: 1200px) {
+  .hero--ellipse__img {
+    display: none;
+  }
+  .hero--ellipse__one {
+    display: none;
+  }
+  .hero--ellipse__two {
+    display: none;
+  }
+  .hero--ellipse__three {
+    display: none;
+  }
+  .hero--ellipse__four {
+    display: none;
+  }
+  .hero--ellipse__five {
+    display: none;
+  }
+}
+@media (max-width: 1140px) {
+  .hero--ellipse__img {
+    display: none;
+  }
+  .hero--ellipse__one {
+    display: none;
+  }
+  .hero--ellipse__two {
+    display: none;
+  }
+  .hero--ellipse__three {
+    display: none;
+  }
+  .hero--ellipse__four {
+    display: none;
+  }
+  .hero--ellipse__five {
+    display: none;
+  }
+}
 @media (max-width: 1024px) {
   .header {
     width: 90%;
   }
-  #hero .hero--ellipse__img {
-    display: none;
-  }
-  #hero .hero--ellipse__academy {
-    position: absolute;
-    top: 140px;
-    left: 70px;
-  }
-  #video .day--block__november {
+  .day--block__november {
     width: 1000px;
     margin-right: 115px;
+  }
+  .day--blocks__one {
+    width: 400px;
+  }
+  .day--blocks__one h1 {
+    font-size: 22px;
+  }
+  .day--blocks__one p {
+    font-size: 13px;
   }
 }
 #header .header {
@@ -1194,6 +1235,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  padding-right: 60px;
 }
 #contact .contact--numbers a {
   padding-top: 43px;
@@ -1222,49 +1264,73 @@ body {
   font-size: 12px;
   color: #BDBDBD;
 }
-#contact .contact--child h1 {
+#contact .contact--block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#contact .contact--block__child {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+#contact .contact--block__child h1 {
   font-weight: 700;
   font-size: 16px;
   color: #FFFFFF;
   padding-bottom: 16px;
 }
-#contact .contact--child p {
+#contact .contact--block__child p {
   font-weight: 400;
   font-size: 14px;
   line-height: 34px;
   color: #FFFFFF;
 }
-#contact .contact--teenager h1 {
+#contact .contact--block__teenager {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+#contact .contact--block__teenager h1 {
   font-weight: 700;
   font-size: 16px;
   color: #FFFFFF;
   padding-bottom: 16px;
 }
-#contact .contact--teenager p {
+#contact .contact--block__teenager p {
   font-weight: 400;
   font-size: 14px;
   line-height: 34px;
   color: #FFFFFF;
 }
-#contact .contact--adult h1 {
+#contact .contact--block__adult {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+#contact .contact--block__adult h1 {
   font-weight: 700;
   font-size: 16px;
   color: #FFFFFF;
   padding-bottom: 16px;
 }
-#contact .contact--adult p {
+#contact .contact--block__adult p {
   font-weight: 400;
   font-size: 14px;
   line-height: 34px;
   color: #FFFFFF;
 }
-#contact .contact--information h1 {
+#contact .contact--block__information {
+  display: flex;
+  flex-direction: column;
+}
+#contact .contact--block__information h1 {
   font-weight: 700;
   font-size: 16px;
   color: #FFFFFF;
   padding-bottom: 16px;
 }
-#contact .contact--information p {
+#contact .contact--block__information p {
   font-weight: 400;
   font-size: 14px;
   line-height: 34px;

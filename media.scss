@@ -1,22 +1,91 @@
-@media (max-width: 1140px) {
+@media (max-width: 1200px) {
+  .hero {
+    &--ellipse {
+      &__img {
+        display: none;
+      }
 
+      &__one {
+        display: none;
+      }
+
+      &__two {
+        display: none;
+      }
+
+      &__three {
+        display: none;
+      }
+
+      &__four {
+        display: none;
+      }
+
+      &__five {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1140px) {
+  .hero {
+    &--ellipse {
+      &__img {
+        display: none;
+      }
+
+      &__one {
+        display: none;
+      }
+
+      &__two {
+        display: none;
+      }
+
+      &__three {
+        display: none;
+      }
+
+      &__four {
+        display: none;
+      }
+
+      &__five {
+        display: none;
+      }
+    }
+  }
 }
 
 @media (max-width: 1024px) {
   .header {
     width: 90%;
   }
-  #hero .hero--ellipse__img {
-    display: none;
-  }
-  #hero .hero--ellipse__academy {
-    position: absolute;
-    top: 140px;
-    left: 70px;
-  }
-  #video .day--block__november {
-    width: 1000px;
-    margin-right: 115px;
+  .day {
+    &--block {
+      &__november {
+        width: 1000px;
+        margin-right: 115px;
+      }
+    }
+
+    &--blocks {
+      //width: 1000px;
+      //margin-right: 115px;
+
+      &__one {
+        width: 400px;
+
+        h1 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 13px;
+        }
+      }
+    }
   }
 }
 
